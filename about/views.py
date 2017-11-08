@@ -3,8 +3,8 @@ from django.template import loader
 
 
 def index(request):
-    template = loader.get_template("about/index.html")
-    #return HttpResponse("<h1>This is the college club homepage</h1>")
+   template = loader.get_template("about/index.html")
+   return HttpResponse(template.render(request))
 
 def project(request):
     return HttpResponse("<h2>The project is a sentimental analysis of depression rates over various countries</h2>"
