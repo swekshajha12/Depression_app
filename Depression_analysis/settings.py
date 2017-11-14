@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'about.apps.AboutConfig',
     'Helloworld.apps.HelloworldConfig',
+    'MLComponent.apps.MlcomponentConfig'
     
 ]
 
